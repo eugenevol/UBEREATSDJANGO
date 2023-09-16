@@ -17,7 +17,7 @@ from django.contrib import admin
 from django.urls import path, include
 from django.contrib.auth import views as auth_views
 # from coreapp import views, apis
-# from uber import views
+from uber import views
 
 urlpatterns = [
     # Web View - Admin
